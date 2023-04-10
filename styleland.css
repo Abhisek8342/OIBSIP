@@ -1,0 +1,367 @@
+body{
+    background-color: #F16767;
+}
+.navbar{
+    display: flex;
+    background-color:#393053;
+    /* rgba(0, 0, 0, 0.77); */
+
+    position: sticky;
+    top: 0;
+}
+.logo{
+  display: flex;
+  
+}
+.logo-item{
+    height:5.4rem;
+    width: 5rem;
+    border-radius: 6rem;
+}
+.nav-list{
+    /* background-color: aliceblue; */
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+}
+.nav-list li{
+  float: left;
+   display: flex;
+   color: aliceblue;
+   padding: 2rem 2.4rem;
+   font-size: 1rem;
+   font-family: Arial, Helvetica, sans-serif;
+   position: sticky;
+   top: 0;
+}
+.nav-list li:hover{
+    color:#F0A04B;
+     /* #867070; */
+    cursor: pointer;
+}
+.nav-list2{
+    margin-left: 21rem;
+    
+}
+.nav-list2 li{
+      float: left;
+    display: flex;
+  text-align: center;
+  justify-content: center;
+    padding:2rem 1rem;
+}
+.nav-list2,.txt{
+    border-radius: 2rem;
+    height: 1.8rem;
+    padding: 0 1rem;
+    background: none;
+    color: aliceblue;
+    border: none none 2rem;
+}
+.nav-list2,#btn{
+    border-radius: 2rem;
+    height: 1.8rem;
+    padding: 0 1rem;
+    background: none;
+    color: aliceblue;
+  }
+  #btn:hover{
+    color: white;
+    background-color: #F0A04B;
+cursor: pointer;
+  }
+ .firstsection{
+    display: flex;
+    padding:4rem;
+    background-color: white;
+    justify-content: space-evenly;
+    color:brown;
+ }
+ .secondimg{
+    height: 20rem;
+    width: 30rem;
+    padding-left: 2.5rem;
+ }
+ .loremText{
+    color: #867070;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+.wbtm{
+    background-color:#F16767;
+    color: white;
+    height: 2rem;
+    width: 14rem;
+    border: none;
+    border-radius: 2rem;
+}
+.wbtm:hover{
+  background-color: #E90064;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+#vid{
+    color: aliceblue;
+}
+.secondsection{
+    background-color: aliceblue;
+}
+.features{
+    color:brown;
+    text-align: center;
+    padding: 1rem 12rem;
+} 
+ .features p{
+    color: #867070;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ } 
+ .card{
+    height: 10rem;
+    width: 15rem;
+    display: block;
+    padding: 2.5rem 7rem;
+    text-align: center;
+   display: inline-block;
+   color:brown;
+   
+ }
+ .notify{
+          display: inline-block;
+          background-color: aliceblue;
+          padding-bottom: 2rem;
+          padding-left: 4rem;
+ }
+ #icon2
+ {
+    border: 2px solid gray;
+    border-radius: 2rem;
+    padding: 1.5rem;
+ } 
+ #icon2:hover{
+    background-color: #867070;
+    border: white;
+    cursor: pointer;
+ }
+ .para1{
+  text-align: center;
+ padding: 0rem 1.9rem;
+ color: #867070d3;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+.thirdsection{
+   background-color: antiquewhite;
+   display: flex;
+  
+}
+ .work
+ {
+    display: inline;
+    flex-direction: row;
+    padding: 4rem;
+ }
+ .work h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:brown;
+ }
+ .mob-photo{
+    height: 24rem;
+    width: 39rem;
+    display: inline-block;
+ }  
+.down{
+    border: none;
+  height: 2.2rem;
+  width: 10rem;
+   background-color:#E90064;
+ color: white;
+ font-size: 1.2rem;
+ border-radius: 1rem;
+}
+.down:hover{
+    background-color:#F16767;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+   
+}
+#mobpara{
+    font-size: 1.1rem;
+    color: #867070e0;
+    font-family: cursive 'Trebuchet MS', sans-serif;
+}
+.pressed{
+    background-color: black;
+    color:black;
+}
+.fourthsection{
+    background-color: white;
+    text-align: center;
+    color: brown;
+    padding-top: 3rem;
+}
+.team{
+    padding: 0 6rem;
+    color: gray;
+}
+.office{
+    height: 21.2rem;
+    width: 12rem;
+    padding: 1.5rem 2rem;
+}
+.subscribe{
+    background-color: aliceblue;
+    padding:1rem 7rem;
+    text-align: center;
+}
+#subs{
+    text-align: center;
+    color: gray;
+    padding: 0 13rem 0;
+}
+#contact{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.form{
+    background-color: white;
+    padding: 2rem 15rem;
+    display: flex;
+    
+}
+.text1{
+    height: 2rem;
+    width: 20rem;
+}
+ .SUBM{
+    background-color: #E90064;
+    color: aliceblue;
+     border: none;
+     width: 10rem;
+     padding: 1rem;
+     border-radius: 2rem;
+     margin-left: 5rem;
+ }
+.SUBM:hover{
+    background-color:#F16767;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+   
+}
+.location{
+    height: 17rem;
+    width: 35rem;
+    padding-left: 5rem;
+    cursor: pointer;
+}
+.cont{
+    padding: 3rem;
+}
+.phn{
+    display: inline-block;
+    padding-left: 12rem;
+    padding-right: 4rem;
+}
+.tele{
+    display: inline-block;
+    padding: 1rem;
+    color: white;
+}
+#call{
+    font-size:2rem;
+    color: white;
+}
+.join{
+    text-align: center;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+#face{
+    color: white;
+    padding: 1rem;
+}
+.foot{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: aliceblue;
+    text-align: center;
+}
+footer{
+    background: linear-gradient(to left,#FFB84C,#F16767,#E90064);
+}
+
+
+
+@media only screen and (max-size:650px) {
+    .navbar,.nav-list li{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+justify-content: center;
+    }
+    .txt{
+        display: flex;
+        flex-direction: column;
+    }
+    #btn{
+        display: flex;
+        flex-direction: column;
+        padding: 0rem;
+        text-align: center;
+justify-content: center;
+    }
+    .nav-list2{
+        margin-left: 0rem;
+        flex-direction: column;
+        text-align: center;
+justify-content: center;
+    }
+    .firstsection{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 16px;
+        font-size: 10px;
+        text-align: center;
+justify-content: center;
+    }
+    .secondimg{
+        display: flex;
+        flex-direction: column-reverse;
+        height:10px;
+        width:10px;
+        padding: 2px;
+        text-align: center;
+        justify-content: center;
+    }
+    .loremText{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        font-size: 2px;
+    }
+    .work{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .form{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 0.5rem 2rem;
+    }
+    .subscribe,#subs{
+        padding: auto;
+        text-align: center;
+    }
+    .mob-photo{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 2rem;
+        width: 3rem;
+    }
+    .down{
+        padding-top: 1rem;
+        font-size: 0.3rem;
+    }
+}
